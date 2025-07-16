@@ -1,10 +1,8 @@
 # album-finder
 
-### React + Vite
+### Getting started
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1) Log into Spotify for Developers and create a new app from the dashboard
+2) Enter the redirect URI of the local port you will be running on
+3) Create a .env file and define VITE_CLIENT_ID and VITE_CLIENT_SECRET as given from Spotify
+4) Open directory in terminal and enter "npm run dev"
